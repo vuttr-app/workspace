@@ -1,0 +1,4 @@
+[submodule "acceptance"]
+	path = acceptance
+	url = ../acceptance
+	branch = master
