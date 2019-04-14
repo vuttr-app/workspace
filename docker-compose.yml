@@ -1,0 +1,19 @@
+version: '3.6'
+
+networks:
+  vuttr:
+    name: vuttr
+    ipam:
+      config:
+      - subnet: 172.21.1.0/24
+
+services:
+  acceptance:
+    container_name: acceptance
+    networks:
+    - vuttr
+    volumes:
+    - ./:/ws
+    image: node:8.15.1-alpine
+    working_dir: /ws/acceptance
+    entrypoint: /bin/sh -c 'npm install; tail -f package.json'
