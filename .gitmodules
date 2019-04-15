@@ -2,3 +2,11 @@
 	path = acceptance
 	url = ../acceptance
 	branch = master
+[submodule "frontend"]
+	path = frontend
+	url = ../frontend
+	branch = master
+[submodule "api"]
+	path = api
+	url = https://gitlab.com/bossabox/challenge-fake-api.git
+	branch = master
