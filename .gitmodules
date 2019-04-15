@@ -1,12 +1,9 @@
 [submodule "acceptance"]
 	path = acceptance
 	url = git@bitbucket.org:vuttr/acceptance.git
-	branch = master
 [submodule "frontend"]
 	path = frontend
 	url = git@bitbucket.org:vuttr/frontend.git
-	branch = master
 [submodule "api"]
 	path = api
 	url = git@bitbucket.org:vuttr/api.git
-	branch = master
