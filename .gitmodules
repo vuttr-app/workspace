@@ -1,12 +1,12 @@
 [submodule "acceptance"]
 	path = acceptance
-	url = ../acceptance
+	url = git@bitbucket.org:vuttr/acceptance.git
 	branch = master
 [submodule "frontend"]
 	path = frontend
-	url = ../frontend
+	url = git@bitbucket.org:vuttr/frontend.git
 	branch = master
 [submodule "api"]
 	path = api
-	url = https://gitlab.com/bossabox/challenge-fake-api.git
+	url = git@bitbucket.org:vuttr/api.git
 	branch = master
