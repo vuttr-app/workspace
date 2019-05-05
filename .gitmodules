@@ -1,9 +1,9 @@
 [submodule "acceptance"]
-	path = acceptance
-	url = git@bitbucket.org:vuttr/acceptance.git
+  path = acceptance
+  url = git@github.com:vuttr-app/acceptance.git
 [submodule "frontend"]
-	path = frontend
-	url = git@bitbucket.org:vuttr/frontend.git
+  path = frontend
+  url = git@github.com:vuttr-app/frontend.git
 [submodule "api"]
-	path = api
-	url = git@bitbucket.org:vuttr/api.git
+  path = api
+  url = git@github.com:vuttr-app/api.git
